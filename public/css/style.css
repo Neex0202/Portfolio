@@ -1,5 +1,5 @@
 #home {
-    background: url("../images/background.jpg") 50% 0 no-repeat;
+    background: url("../images/waterfall2.jpeg") 50% 0 no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,23 +17,26 @@
 }
 
 h1 {
-		width: 30%;
-		margin-left: 10%;
+		width: 35%;
+		margin-left: 20%;
 		display: inline-block;
+		font-weight: 100;
 		font-family: impact;
-		color: gold;
-    font-size: 64px;
-    position: absolute;
+		color: #e68a00;
+    font-size: 96px;
+    position: fixed;
 
 		font-variant: small-caps;
 		letter-spacing: 2px;
 		/*line-height: */
-    
+    padding-bottom: 30px;
     border-bottom: 5px solid black;
 
     text-align: center;
     font-style: oblique;
-    top: 150px;
+    top: 30%;
+
+    z-index: 5;
 
 }
 
@@ -44,7 +47,7 @@ h1 {
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
-  top: 420px;
+  top: 1024px;
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -77,8 +80,8 @@ h1 {
 
 #bio {
 	background-color: white;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 84px;
+	padding-bottom: 84px;
 }
 
 #bio-info{
@@ -90,8 +93,8 @@ h1 {
 
 
 #quote{
-	margin-top: 20px;
-	padding-top: 15px;
+	margin-top: 48px;
+	padding-top: 36px;
 }
 
 p#quote{
@@ -103,10 +106,11 @@ p#quote{
 }
 
 #skill {
+	
 	background-color: lightgrey;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
+	padding: 84px 0 84px 0;
+	}
+
 
 #skillHeader{
 	color: white;
