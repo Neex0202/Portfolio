@@ -1,0 +1,51 @@
+// or onMouseover
+
+// $("#btn-HTML").on("hover", function(){
+// 	// toggle div under button
+// 	alert("html onMouseover");
+// 	$("#hmtlProgressBar").toggle();
+// 	//create div under button
+// 	// ($<div >)
+
+
+// });
+
+
+
+
+
+
+$(document).ready(function() {
+
+     // $("HTML").on({
+
+     // 	mouseenter: function(){
+     // 		$(".progress-bar-info").show();
+     // 		console.log("mouseenter hit")
+     // 	},
+     // 	mouseleave: function(){
+     // 		$(".progress-bar-info").hide();
+     // 		console.log("mouseleave hit")
+     // 	}
+
+    //create div under button
+    // ($<div >)
+
+
+    $("HTML").on("click", function(){
+    // toggle div under button
+    console.log("html onclick");
+ 		$(".progress-bar-info").show();
+
+     		
+});
+    //create div under button
+    // ($<div >)
+
+
+
+});
+
+
+
+

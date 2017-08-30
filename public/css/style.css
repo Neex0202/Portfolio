@@ -1,0 +1,139 @@
+#home {
+    background: url("../images/background.jpg") 50% 0 no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    min-width: 1024px;
+    min-height: 100%;
+
+    width: 100%;
+    height: auto;
+
+    /*background-attachment: fixed;*/
+    background-size: 100%;
+    opacity: 0.9;
+    z-index: -100;
+}
+
+h1 {
+		width: 30%;
+		margin-left: 10%;
+		display: inline-block;
+		font-family: impact;
+		color: gold;
+    font-size: 64px;
+    position: absolute;
+
+		font-variant: small-caps;
+		letter-spacing: 2px;
+		/*line-height: */
+    
+    border-bottom: 5px solid black;
+
+    text-align: center;
+    font-style: oblique;
+    top: 150px;
+
+}
+
+#about {
+	background: white;
+  /*background: url("../images/Safari.jpg") 50% 0 repeat fixed; min-height: 1000px; */
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  top: 420px;
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+
+#about h1 h2 {
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}
+
+.section-heading{
+	text-align: right;
+	vertical-align: top;
+	/*line-height: 40px;*/
+	font-family: Helvetica, black, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	
+}
+
+.sub-heading{
+	text-align: right;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#bio {
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#bio-info{
+	position:relative;
+	width: 50%;
+}
+
+
+
+
+#quote{
+	margin-top: 20px;
+	padding-top: 15px;
+}
+
+p#quote{
+
+	width: 50%;
+	text-align: center;
+	font-style: italic;
+	border-top: 5px solid black;
+}
+
+#skill {
+	background-color: lightgrey;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#skillHeader{
+	color: white;
+}
+
+#portfolio {
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#contact{
+	background-color: lightgrey;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#contactHeader{
+	color: white;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #home {
+        left: 50%;
+        margin-left: -512px; /*50%*/
+    }
+}
