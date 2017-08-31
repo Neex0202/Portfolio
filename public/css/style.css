@@ -106,7 +106,7 @@ p#quote{
 }
 
 #skill {
-	
+
 	background-color: lightgrey;
 	padding: 84px 0 84px 0;
 	}
@@ -116,10 +116,52 @@ p#quote{
 	color: white;
 }
 
+.skillblockrow{
+	width: 85%;
+}
+
 #portfolio {
 	background-color: white;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 84px;
+	padding-bottom: 84px;
+}
+
+
+/*Portfolio Pictures*/
+
+
+#netDev{
+	height:300px;
+	width: 300px;
+
+}
+
+#watchlist{
+	height: 200px;
+	width: 200px;
+	vertical-align: top;
+}
+
+#fridge{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	vertical-align: bottom;
+	right: 203px;
+}
+
+#bamazon{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	vertical-align: bottom;
+	right: 203px;
+
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 #contact{
@@ -132,7 +174,16 @@ p#quote{
 	color: white;
 }
 
+.contactBlockRow {
+	width: 85%;
+}
 
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
 
 
 @media screen and (max-width: 1024px) {

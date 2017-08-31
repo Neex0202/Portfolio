@@ -90,7 +90,7 @@
 
 
 
-    			<div class="row" id="skillblockrow">
+    			<div class="row skillblockrow" >
 
 
 
@@ -134,7 +134,7 @@
           </div>
             
 
-          <div class="row">
+          <div class="row skillblockrow">
 
             <div class=col-sm-3>
 
@@ -171,29 +171,7 @@
 
           </div>
 
-        
-<!--     				<div class=col-sm-3>
-    				<button ><img id="HTML" src="./public/images/html_Cropped.png" alt="hmtl5" height="50px" width="auto"> </button>
-						<div class="progress-bar progress-bar-info"  role="progressbar" aria-valuenow="50"
-  aria-valuemin="0" aria-valuemax="100"></div> --><!--  html PROGRESS BAR -->
-<!--     				<div class=col-sm-3>
-    				<button><img src="./public/images/css3.png" alt="hmtl5" height="50px" width="auto"> </button>
-    				</div>
-    				<div class=col-sm-3
-    				><button><img src="./public/images/javascript.png" alt="hmtl5" height="50px" width="auto"> </button></div>
-    				<div class=col-sm-3>
-    				<button><img src="./public/images/jquery.png" alt="hmtl5" height="50px" width="auto"> </button></div>
-    			</div> -->
-
-<!--           
-    			<div class="row">
-    				<div class=col-sm-3>
-    				<button><img src="./public/images/mongoDB.png" alt="hmtl5" height="50px" width="auto"> </button></div>
-    				<div class=col-sm-3><button><img src="./public/images/mySQL.png" alt="hmtl5" height="50px" width="auto"> </button></div>
-    				<div class=col-sm-3><button><img src="./public/images/Node-JS.png" alt="hmtl5" height="50px" width="auto"> </button></div>
-    				<div class=col-sm-3><button><img src="./public/images/React_Cropped.png" alt="hmtl5" height="50px" width="auto"> </button></div>    				
-    			</div> -->
-
+   
 
     		</div>
 
@@ -205,7 +183,7 @@
 		
     </div>
     <!-- CLOSE SKILL -->
-   
+   </div>
 		<!-- OPEN PORTFOLIO -->
     <div class="row" id="portfolio">
     	<h3 id="portfolioHeader"></h3>
@@ -213,18 +191,60 @@
     	<div class="row">
     		<div class="col-sm-4">
     			<p class="section-heading">Portfolio</p>
-    			<p class="sub-heading">some of my stuff</p>
+    			<p class="sub-heading">some group stuff</p>
     		</div>
     		<div class="col-sm-8" id="portfolio-block"> <!-- Golden Ratio of Pics -->
-    			<div class="row">
-    					<div class="col-sm-6">PROJ 1</div>
-    					<div class="col-sm-4">PROJ 2
+    			<div class="row">  <!-- Row of Projects -->
+
+                <a href="https://github.com/Neex0202/FinalProject" target="_blank">
+                  <img id="netDev" src="./public/images/NetDevCropped.png"/>
+                </a>
+                <a href="https://personalwatchlist.herokuapp.com/" target="_blank">
+                  <img id="watchlist" src="./public/images/WatchlistCropped.png"/>
+                </a>
+                <a href="https://vincefio.github.io/whatsinyourfridge/" target="_blank">
+                  <img id="fridge" src="./public/images/WhatsFridgeCropped1.png"/>
+                </a>
+                <a href="https://github.com/Neex0202/Bamazon" target="_blank">
+                  <img id="bamazon" src="./public/images/BamazonCropped.png"/>
+                </a>                                
+
+<!-- 
+
+    					<div class="col-sm-6">
+                
+                <a href="https://github.com/Neex0202" target="_blank">
+                  <img id="netDev" src="./public/images/NetDevCropped.png"/>
+                </a>
+
+              </div>
+    					<div class="col-sm-4">
+
+                <a href="https://github.com/Neex0202" target="_blank">
+                  <img id="watchlist" src="./public/images/WatchlistCropped.png"/>
+                </a>
+
+
     						<div class="row">
-    							<div class="col-sm-6">PROJ 3</div>
-    							<div class="col-sm-6">PROJ 4</div>
+    							<div class="col-sm-6 nopadding">
+
+                  <a href="https://github.com/Neex0202" target="_blank">
+                    <img id="fridge" src="./public/images/WhatsFridgeCropped1.png"/>
+                  </a>
+
+                  </div>
+    							<div class="col-sm-6 nopadding">
+
+
+                  <a href="https://github.com/Neex0202" target="_blank">
+                    <img id="bamazon" src="./public/images/BamazonCropped.png"/>
+                  </a>
+                  </div>
     						</div>
     					</div>
-    			</div>
+ -->
+
+    			</div>  <!-- End row of Projects -->
     		</div>
 
     	</div>
@@ -241,21 +261,27 @@
     			<p class="sub-heading">hit me up</p>
     		</div>
 				<div class="col-sm-8">
-					<div class="col-sm-4">Location</div>
-					<div class="col-sm-4">Email</div>
-					<div class="col-sm-4">Phone</div>
+          <div class="row contactBlockRow">
+					<div class="col-sm-4">Location :<br>Greater New York City</div>
+					<div class="col-sm-4">Email:<br>nico.a.staana@gmail.com</div>
+					<div class="col-sm-4">Phone:<br>973-229-1536</div>
+          </div>
 				</div>
 			</div> <!-- End Contact Pt. 1 -->
 			<!-- Contact Pt. 2 -->
 			<div class="row">  <!-- COLUMN UNCESSARRY ??? -->
-				<div class="col-sm-12">SOCIAL MEDIA</div>
+				<div class="col-sm-12"></div>
 			</div> <!-- End Contact Pt. 2 -->
 
     </div>
 		<!-- CLOSE CONTACT -->
 
 		<!-- OPEN FOOTER -->
-		<footer>Foot Her</footer>
+<div class="footer navbar-fixed-bottom">
+      <div class="container">
+        <p class="text-muted">  &copy Nico Sta. Ana</p>
+      </div>
+   </div>
 		<!-- CLOSE FOOTER -->
 
 
