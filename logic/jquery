@@ -1,11 +1,11 @@
 // or onMouseover
 
 // $("#btn-HTML").on("hover", function(){
-// 	// toggle div under button
-// 	alert("html onMouseover");
-// 	$("#hmtlProgressBar").toggle();
-// 	//create div under button
-// 	// ($<div >)
+//  // toggle div under button
+//  alert("html onMouseover");
+//  $("#hmtlProgressBar").toggle();
+//  //create div under button
+//  // ($<div >)
 
 
 // });
@@ -17,35 +17,217 @@
 
 $(document).ready(function() {
 
-     // $("HTML").on({
+    // $("HTML").on({
 
-     // 	mouseenter: function(){
-     // 		$(".progress-bar-info").show();
-     // 		console.log("mouseenter hit")
-     // 	},
-     // 	mouseleave: function(){
-     // 		$(".progress-bar-info").hide();
-     // 		console.log("mouseleave hit")
-     // 	}
+    //  mouseenter: function(){
+    //    $(".progress-bar-info").show();
+    //    console.log("mouseenter hit")
+    //  },
+    //  mouseleave: function(){
+    //    $(".progress-bar-info").hide();
+    //    console.log("mouseleave hit")
+    //  }
 
     //create div under button
     // ($<div >)
 
 
-    $("HTML").on("click", function(){
-    // toggle div under button
-    console.log("html onclick");
- 		$(".progress-bar-info").show();
+    //  $("HTML").on("click", function(){
+    //  // toggle div under button
+    //  console.log("html onclick");
+    // $(".progress-bar-info").show();
 
-     		
+
+    // HTML BUTTON
+
+    $("#HTML").click(function() {
+
+        console.log("html button works");
+
+        var progressDiv = $("<div>");
+        progressDiv.addClass("progress");
+
+        var htmlSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='20' aria-valuemin='0' aria-valuemax='100' style='width:20%'>")
+        htmlSkillBar.append("10% HTML SKILL")
+
+        progressDiv.append(htmlSkillBar);
+
+        $("#skillDiv").html(progressDiv);
+
+
+    });
+
+
+    $("#CSS").click(function(){
+
+      console.log("CSS BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var cssSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='15' aria-valuemin='0' aria-valuemax='100' style='width:15%'>")
+        cssSkillBar.append("15% CSS SKILL")
+
+        progressDiv.append(cssSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+    $("#JS").click(function(){
+
+      console.log("JS BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var jsSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='30' aria-valuemin='0' aria-valuemax='100' style='width:30%'>")
+        jsSkillBar.append("30% Javascript SKILL")
+
+        progressDiv.append(jsSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+    $("#jQuery").click(function(){
+
+      console.log("jQuery BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var jQuerySkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width:70%'>")
+        jQuerySkillBar.append("70% jQuery SKILL");
+
+        progressDiv.append(jQuerySkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+      $("#jQuery").click(function(){
+
+      console.log("jQuery BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var jQuerySkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width:70%'>")
+        jQuerySkillBar.append("70% jQuery SKILL");
+
+        progressDiv.append(jQuerySkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+      $("#nodeJS").click(function(){
+
+      console.log("nodeJS BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var nodeJSSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='50' aria-valuemin='0' aria-valuemax='100' style='width:50%'>")
+        nodeJSSkillBar.append("50% nodeJS SKILL");
+
+        progressDiv.append(nodeJSSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+      $("#mySQL").click(function(){
+
+      console.log("mySQL BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var mySQLSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='40' aria-valuemin='0' aria-valuemax='100' style='width:40%'>")
+        mySQLSkillBar.append("50% mySQL SKILL");
+
+        progressDiv.append(mySQLSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+      $("#mongoDB").click(function(){
+
+      console.log("mongoDB BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var mongoDBSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>")
+        mongoDBSkillBar.append("60% mongoDB SKILL");
+
+        progressDiv.append(mongoDBSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+      $("#mongoDB").click(function(){
+
+      console.log("mongoDB BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var mongoDBSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>")
+        mongoDBSkillBar.append("60% mongoDB SKILL");
+
+        progressDiv.append(mongoDBSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });
+
+
+
+       $("#react").click(function(){
+
+      console.log("react BUTTON CLICKED");
+
+      var progressDiv= $("<div>");
+      progressDiv.addClass("progress");
+
+        var reactSkillBar = $("<div class ='progress-bar progress-bar-info' role='progressbar' aria-valuenow='35' aria-valuemin='0' aria-valuemax='100' style='width:35%'>")
+        reactSkillBar.append("35% react SKILL");
+
+        progressDiv.append(reactSkillBar);
+
+        $("#skillDiv").html(progressDiv);    
+
+
+    });     
+
+
+
+
+
+
 });
-    //create div under button
-    // ($<div >)
+//create div under button
+// ($<div >)
 
 
 
-});
-
-
-
-
+// });
